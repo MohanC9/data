@@ -39,6 +39,7 @@ public class adactin {
 		driver.findElement(By.id("Submit")).submit();
 		 String n = driver.getTitle();
 		 System.out.println(n);
+		 driver.close();
 
 	}
 
